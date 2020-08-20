@@ -9,31 +9,31 @@
 
 <p float="left">
   <a href="https://golang.org/" target="_blank" >
-    <img src="images/golang.jpg"  height="90" />
+    <img src="https://raw.githubusercontent.com/kailashyogeshwar85/kailashyogeshwar85/master/images//golang.jpg"  height="90" />
   </a>
   <a href="https://www.docker.com/" target="_blank" >
-    <img src="images/docker.jpg"  height="90" /> 
+    <img src="https://raw.githubusercontent.com/kailashyogeshwar85/kailashyogeshwar85/master/images/docker.jpg"  height="90" /> 
   </a>
   <a href="https://kubernetes.io/" target="_blank" >
-    <img src="images/k8.png"  height="90" />
+    <img src="https://raw.githubusercontent.com/kailashyogeshwar85/kailashyogeshwar85/master/images/k8.png"  height="90" />
   </a>
   <a href="https://nodejs.org/" target="_blank" >
-    <img src="images/nodejs.jpg"  height="90" />
+    <img src="https://raw.githubusercontent.com/kailashyogeshwar85/kailashyogeshwar85/master/images/nodejs.jpg"  height="90" />
   </a>
   <a href="https://redis.io/" target="_blank" >
-    <img src="images/redis.png"  height="90" />
+    <img src="https://raw.githubusercontent.com/kailashyogeshwar85/kailashyogeshwar85/master/images/redis.png"  height="90" />
   </a>
   <a href="https://ruby-lang.org/" target="_blank" >
-    <img src="images/ruby.jpg"  height="90" />
+    <img src="https://raw.githubusercontent.com/kailashyogeshwar85/kailashyogeshwar85/master/images/ruby.jpg"  height="90" />
   </a>
   <a href="https://mongodb.org/" target="_blank" >
-    <img src="images/mongo.png"  height="90" />
+    <img src="https://raw.githubusercontent.com/kailashyogeshwar85/kailashyogeshwar85/master/images/mongo.png"  height="90" />
   </a>
   <a href="https://reactjs.org/" target="_blank" >
-    <img src="images/react.jpg"  height="90" />
+    <img src="https://raw.githubusercontent.com/kailashyogeshwar85/kailashyogeshwar85/master/images/react.jpg"  height="90" />
   </a>
   <a href="https://prometheus.io/" target="_blank" >
-    <img src="images/prometheus.png"  height="90" />
+    <img src="https://raw.githubusercontent.com/kailashyogeshwar85/kailashyogeshwar85/master/images/prometheus.png"  height="90" />
   </a>
  </p>
 
