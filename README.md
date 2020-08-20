@@ -1,6 +1,10 @@
 
+<h3 align="center">
+   <img src="https://avatars3.githubusercontent.com/u/11419095?s=180&v=4" alt="avatar">
+</h3>
 <p align="center">
    <img src="https://gpvc.arturio.dev/kailashyogeshwar85" alt="profile views">   
+    <a href="https://twitter.com/intent/follow?screen_name=kailash8591&tw_p=followbutton"><img src="https://img.shields.io/twitter/follow/kailash8591?label=%40kailash8591&style=social"></a> 
 </p>
 
 
