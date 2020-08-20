@@ -23,9 +23,6 @@
   <a href="https://redis.io/" target="_blank" >
     <img src="https://raw.githubusercontent.com/kailashyogeshwar85/kailashyogeshwar85/master/images/redis.png"  height="90" />
   </a>
-  <a href="https://ruby-lang.org/" target="_blank" >
-    <img src="https://raw.githubusercontent.com/kailashyogeshwar85/kailashyogeshwar85/master/images/ruby.jpg"  height="90" />
-  </a>
   <a href="https://mongodb.org/" target="_blank" >
     <img src="https://raw.githubusercontent.com/kailashyogeshwar85/kailashyogeshwar85/master/images/mongo.png"  height="90" />
   </a>
