@@ -22,7 +22,7 @@
 <h1> BIO </h1>
 
 <p>
-       Backend Engineer who loves to solve technical problems of business.Love making OSS and maintaining them over the period of time.Backend architect at indias leading fintech. Developer advocate to a startup in mumbai to make building software fun and robust.Business consultant to AppOctet.I believe in contributing to OSS community as majority of the products would not be possible without it.Contact me on linkedin if you would like to collaborate on building next OSS.
+       Backend Engineer who loves to solve technical problems of business.Love making OSS and maintaining them over the period of time.Backend architect at indias leading fintech. Developer advocate to a startup in mumbai to make building software fun and robust.I believe in contributing to OSS community as majority of the products would not be possible without it.Contact me on linkedin if you would like to collaborate on building next OSS.
 </p>
 
 ```javascript
