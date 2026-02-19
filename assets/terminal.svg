@@ -1,0 +1,111 @@
+<svg width="850" height="320" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @keyframes typing1 { 0%,8% { width: 0 } 15%,100% { width: 520px } }
+    @keyframes typing2 { 0%,18% { width: 0 } 25%,100% { width: 340px } }
+    @keyframes typing3 { 0%,28% { width: 0 } 35%,100% { width: 470px } }
+    @keyframes typing4 { 0%,38% { width: 0 } 45%,100% { width: 410px } }
+    @keyframes typing5 { 0%,48% { width: 0 } 55%,100% { width: 490px } }
+    @keyframes typing6 { 0%,58% { width: 0 } 65%,100% { width: 300px } }
+    @keyframes blink { 0%,100% { opacity: 1 } 50% { opacity: 0 } }
+    @keyframes fadeIn1 { 0%,8% { opacity: 0 } 10% { opacity: 1 } }
+    @keyframes fadeIn2 { 0%,18% { opacity: 0 } 20% { opacity: 1 } }
+    @keyframes fadeIn3 { 0%,28% { opacity: 0 } 30% { opacity: 1 } }
+    @keyframes fadeIn4 { 0%,38% { opacity: 0 } 40% { opacity: 1 } }
+    @keyframes fadeIn5 { 0%,48% { opacity: 0 } 50% { opacity: 1 } }
+    @keyframes fadeIn6 { 0%,58% { opacity: 0 } 60% { opacity: 1 } }
+    @keyframes cursorMove {
+      0%,8% { transform: translate(35px, 88px) }
+      15%,18% { transform: translate(35px, 113px) }
+      25%,28% { transform: translate(35px, 138px) }
+      35%,38% { transform: translate(35px, 163px) }
+      45%,48% { transform: translate(35px, 188px) }
+      55%,58% { transform: translate(35px, 213px) }
+      65%,100% { transform: translate(35px, 238px) }
+    }
+    .t { font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', monospace; font-size: 13px; }
+  </style>
+
+  <!-- Window -->
+  <rect width="850" height="320" rx="12" fill="#0d1117"/>
+  <rect width="850" height="36" rx="12" fill="#161b22"/>
+  <rect y="24" width="850" height="12" fill="#161b22"/>
+
+  <!-- Traffic lights -->
+  <circle cx="24" cy="18" r="6.5" fill="#ff5f57"/>
+  <circle cx="44" cy="18" r="6.5" fill="#febc2e"/>
+  <circle cx="64" cy="18" r="6.5" fill="#28c840"/>
+
+  <!-- Title -->
+  <text x="425" y="22" text-anchor="middle" fill="#8b949e" font-family="system-ui, sans-serif" font-size="13">kailash@bangalore ~ </text>
+
+  <!-- Prompt symbols -->
+  <text class="t" x="22" y="70" fill="#7ee787">~</text>
+  <text class="t" x="35" y="70" fill="#8b949e">$</text>
+  <text class="t" x="50" y="70" fill="#c9d1d9">cat about_me.json</text>
+
+  <!-- Cursor -->
+  <rect width="8" height="16" fill="#58a6ff" opacity="0.8" style="animation: cursorMove 12s steps(1) infinite, blink 1s step-end infinite">
+  </rect>
+
+  <!-- Line 1 -->
+  <g style="animation: fadeIn1 12s infinite">
+    <clipPath id="c1"><rect x="22" y="78" style="animation: typing1 12s infinite"><animate attributeName="width" values="0;0;520px;520px" keyTimes="0;0.08;0.15;1" dur="12s" repeatCount="indefinite"/></rect></clipPath>
+    <text class="t" x="22" y="90" fill="#79c0ff" clip-path="url(#c1)">  "name"</text>
+    <text class="t" x="100" y="90" fill="#8b949e" clip-path="url(#c1)">:</text>
+    <text class="t" x="115" y="90" fill="#a5d6ff" clip-path="url(#c1)">"Kailash Yogeshwar"</text>
+    <text class="t" x="290" y="90" fill="#8b949e" clip-path="url(#c1)">,</text>
+  </g>
+
+  <!-- Line 2 -->
+  <g style="animation: fadeIn2 12s infinite">
+    <clipPath id="c2"><rect x="22" y="103" style="animation: typing2 12s infinite"><animate attributeName="width" values="0;0;340px;340px" keyTimes="0;0.18;0.25;1" dur="12s" repeatCount="indefinite"/></rect></clipPath>
+    <text class="t" x="22" y="115" fill="#79c0ff" clip-path="url(#c2)">  "role"</text>
+    <text class="t" x="100" y="115" fill="#8b949e" clip-path="url(#c2)">:</text>
+    <text class="t" x="115" y="115" fill="#a5d6ff" clip-path="url(#c2)">"Senior Backend Engineer"</text>
+    <text class="t" x="332" y="115" fill="#8b949e" clip-path="url(#c2)">,</text>
+  </g>
+
+  <!-- Line 3 -->
+  <g style="animation: fadeIn3 12s infinite">
+    <clipPath id="c3"><rect x="22" y="128" style="animation: typing3 12s infinite"><animate attributeName="width" values="0;0;470px;470px" keyTimes="0;0.28;0.35;1" dur="12s" repeatCount="indefinite"/></rect></clipPath>
+    <text class="t" x="22" y="140" fill="#79c0ff" clip-path="url(#c3)">  "experience"</text>
+    <text class="t" x="130" y="140" fill="#8b949e" clip-path="url(#c3)">:</text>
+    <text class="t" x="145" y="140" fill="#a5d6ff" clip-path="url(#c3)">"10+ years of building at scale"</text>
+    <text class="t" x="440" y="140" fill="#8b949e" clip-path="url(#c3)">,</text>
+  </g>
+
+  <!-- Line 4 -->
+  <g style="animation: fadeIn4 12s infinite">
+    <clipPath id="c4"><rect x="22" y="153" style="animation: typing4 12s infinite"><animate attributeName="width" values="0;0;410px;410px" keyTimes="0;0.38;0.45;1" dur="12s" repeatCount="indefinite"/></rect></clipPath>
+    <text class="t" x="22" y="165" fill="#79c0ff" clip-path="url(#c4)">  "focus"</text>
+    <text class="t" x="100" y="165" fill="#8b949e" clip-path="url(#c4)">:</text>
+    <text class="t" x="115" y="165" fill="#a5d6ff" clip-path="url(#c4)">"Distributed Systems &amp; DevOps"</text>
+    <text class="t" x="395" y="165" fill="#8b949e" clip-path="url(#c4)">,</text>
+  </g>
+
+  <!-- Line 5 -->
+  <g style="animation: fadeIn5 12s infinite">
+    <clipPath id="c5"><rect x="22" y="178" style="animation: typing5 12s infinite"><animate attributeName="width" values="0;0;490px;490px" keyTimes="0;0.48;0.55;1" dur="12s" repeatCount="indefinite"/></rect></clipPath>
+    <text class="t" x="22" y="190" fill="#79c0ff" clip-path="url(#c5)">  "languages"</text>
+    <text class="t" x="130" y="190" fill="#8b949e" clip-path="url(#c5)">:</text>
+    <text class="t" x="145" y="190" fill="#8b949e" clip-path="url(#c5)">[</text>
+    <text class="t" x="155" y="190" fill="#a5d6ff" clip-path="url(#c5)">"JS" "TS" "Go" "Python" "Ruby"</text>
+    <text class="t" x="458" y="190" fill="#8b949e" clip-path="url(#c5)">]</text>
+    <text class="t" x="466" y="190" fill="#8b949e" clip-path="url(#c5)">,</text>
+  </g>
+
+  <!-- Line 6 -->
+  <g style="animation: fadeIn6 12s infinite">
+    <clipPath id="c6"><rect x="22" y="203" style="animation: typing6 12s infinite"><animate attributeName="width" values="0;0;300px;300px" keyTimes="0;0.58;0.65;1" dur="12s" repeatCount="indefinite"/></rect></clipPath>
+    <text class="t" x="22" y="215" fill="#79c0ff" clip-path="url(#c6)">  "motto"</text>
+    <text class="t" x="100" y="215" fill="#8b949e" clip-path="url(#c6)">:</text>
+    <text class="t" x="115" y="215" fill="#a5d6ff" clip-path="url(#c6)">"Ship it. Scale it."</text>
+  </g>
+
+  <!-- Bottom prompt -->
+  <g opacity="0" style="animation: fadeIn6 12s infinite">
+    <text class="t" x="22" y="255" fill="#7ee787">~</text>
+    <text class="t" x="35" y="255" fill="#8b949e">$</text>
+    <rect x="50" y="241" width="8" height="16" fill="#58a6ff" style="animation: blink 1s step-end infinite"/>
+  </g>
+</svg>
